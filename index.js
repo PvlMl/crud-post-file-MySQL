@@ -14,7 +14,7 @@ app.use('/', router);
 sequelize
   .sync()
   .then(() => {
-    app.listen(3000, function () {
+    app.listen(PORT, function () {
       console.log("server is running...");
     });
   })
