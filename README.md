@@ -11,4 +11,4 @@
 
 /users GET массив всех юзеров
 
-/media/:filename , доступ к медиафайлу, указанному в поле mediaFileLink юзера
+/media/:filename GET , доступ к медиафайлу, указанному в поле mediaFileLink юзера
